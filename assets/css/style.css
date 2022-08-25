@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+  }
+  body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+  }
+  .header{
+    background-color: var(--secondary-color);
+  }
+  .form-control{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    /* color: #fff; */
+    width: 200px;
+  }
+  .searchBtn:focus{
+    color: #fff;
+  }
+  .form-control:focus{
+    outline: none;
+    background-color: var(--primary-color);
+  }
+  .card{
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  .card-body{
+    padding: 0;
+    font-size: 14px;
+  }
+  .movie-img{
+    overflow: hidden;
+    object-fit: cover;
+   }
+  .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  figcaption{
+    display: flex;
+  }
+  .movie-info{
+    padding: 10px;
+    height: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+ }
+  figcaption h3{
+    font-size: 20px;
+    background-color: var(--secondary-color);
+    height: 30px;
+    font-weight: bold;
+    width: 85%;
+    display: flex;
+    align-items: center;
+  }
+  figcaption span{
+    font-size: 16px;
+    font-weight: bold;
+    width: 25%;
+    padding: 7px 7px 7px 7px;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+ .orange{
+  color: orange;
+ }
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+ .overview{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    object-fit: contain;
+    background-color: #fff;
+    color: #000;
+    overflow: hidden;
+    height: 75%;
+ }
+
+ .movie-img:hover .overview{
+    transform: translateY(0%);
+ }
+ .mb-20{
+  margin-bottom: 20px;
+ }
+
+
+ 
